@@ -1,4 +1,4 @@
-﻿namespace ColorBlindness_App.Data
+﻿namespace ColorBlindness_App.Models
 {
     public class User
     {

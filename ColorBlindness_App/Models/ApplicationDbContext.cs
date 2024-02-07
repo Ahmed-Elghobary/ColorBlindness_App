@@ -8,5 +8,11 @@ namespace ColorBlindness_App.Models
         {
             
         }
+        public DbSet<Test> Tests { get; set; }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+        }
+       
     }
 }
